@@ -1,5 +1,6 @@
 
 import './css/cart.css';
+
 import Banniere from './component/exercice';
 import Cart from './component/cart';
 
@@ -9,6 +10,7 @@ function App(){
     <div>
       <Banniere/>
       <Cart/>
+      
     </div>
   )
 }

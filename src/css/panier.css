@@ -1,0 +1,9 @@
+.lmj-cart{
+    padding: 32px;
+    background-color: #31b572;
+    color: white;
+}
+.cart-list{
+    list-style-type: none;
+    font-weight: bold;
+}

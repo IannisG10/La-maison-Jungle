@@ -3,4 +3,15 @@
     text-align: right;
     padding: 32px;
     border-bottom: solid 3px black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.monImage{
+    width: 50px;
+    height: 50px;
+}
+.lmj-tittle{
+    padding-left: 10px;
 }
