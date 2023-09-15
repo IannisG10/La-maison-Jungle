@@ -1,5 +1,6 @@
 import React from "react";
 import '../css/panier.css';
+
 function Cart(){
     const monsteraPrice =8;
     const lierrePrice =10;
@@ -8,9 +9,10 @@ function Cart(){
         <div className="lmj-cart">
             <h2>Panier</h2>
             <ul className="cart-list">
-                <li>Monstera : {monsteraPrice}</li>
-                <li>Lierre : {lierrePrice}</li>
-                <li>Bouquet de fleur : {FlowerPrice}</li>
+                
+                <li>Monstera : {monsteraPrice} Ar</li>
+                <li>Lierre : {lierrePrice} Ar</li>
+                <li>Bouquet de fleur : {FlowerPrice} Ar</li>
             </ul>
             <p>Total :{monsteraPrice+lierrePrice+FlowerPrice}</p>
         </div>

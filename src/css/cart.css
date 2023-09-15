@@ -6,12 +6,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
    
 }
 .monImage{
     width: 50px;
     height: 50px;
 }
-.lmj-tittle{
+.lmj-tittle,.little-tittle{
     padding-left: 10px;
+    
 }
