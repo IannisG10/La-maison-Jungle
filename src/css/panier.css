@@ -36,3 +36,11 @@
 .Careval{
     display: block;
 }
+.lmj-liste{
+    margin: 12px;
+}
+.lmj-cover{
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}

@@ -1,7 +1,7 @@
 
 import './css/cart.css';
 import './css/panier.css';
-import Banniere from './component/exercice';
+import Banniere from './component/Banniere';
 // import Cart from './component/cart';
 import ShoppingList from './component/shoppingList';
 

@@ -1,9 +1,7 @@
 import React from "react";
 import '../css/panier.css'
 import { plantList } from "../datas/plantList";
-
-
-
+import PlantItem from "./plantItem";
 
 function ShoppingList (){
     const categories = plantList.reduce((acc,plant)=> 
@@ -14,12 +12,14 @@ function ShoppingList (){
                 {categories.map(x=>(<li key={x}>{x}</li>))}
             </ul>
             <ul className="cart-list">
-                {plantList.map(plant=>(
-                    <li key={plant.id} className="lmj-item">
-                         {plant.name}{plant.isBestSell ?<span>🔥</span>:null}{plant.isSpecialOffer? 
-                        <div className="lmj-sales">Solde</div>:null}
-                     
-                    </li>))}     
+                {plantList.map(({id,cover,name,water,light}) =>(
+                    <PlantItem id={id}
+                               cover={cover}
+                               name={name}
+                               water={water}
+                               light={light}
+                               />
+                ))}
             </ul>
         </div>
     )
