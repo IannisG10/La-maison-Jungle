@@ -4,16 +4,14 @@ import { plantList } from "../datas/plantList";
 import PlantItem from "./plantItem";
 
 function ShoppingList (){
-    const categories = plantList.reduce((acc,plant)=> 
-        acc.includes(plant.category)?acc :acc.concat(plant.category),[]);
+    
     return(
         <div className="lmj-cart">
-            <ul className="">
-                {categories.map(x=>(<li key={x}>{x}</li>))}
-            </ul>
+            
             <ul className="cart-list">
-                {plantList.map(({id,cover,name,water,light}) =>(
+                {plantList.map(({id,cover,name,water,light,category}) =>(
                     <PlantItem id={id}
+                                category={category}
                                cover={cover}
                                name={name}
                                water={water}
