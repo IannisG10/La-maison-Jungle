@@ -15,7 +15,7 @@ function Footer(){
 
     return(
         <footer className="lmj-footer">
-            <div className="lmj-footer-element">Pour les passionnés de plantes 🍃🥀 </div>
+            <div className="">Pour les passionnés de plantes 🍃🥀 </div>
             <div>Laissez nous votre e-mail!😇 </div>
             <input
                 placeholder="Entrer votre e-mail"
