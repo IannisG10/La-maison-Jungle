@@ -11,7 +11,7 @@ function App(){
   return(
     <div>
       <Banniere/>
-      {/* <Cart/> */}
+      
       <ShoppingList/>
       <Footer/>
      
